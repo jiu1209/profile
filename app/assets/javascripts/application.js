@@ -22,3 +22,11 @@ $(function() {
 		$('.start').fadeOut(500);
 	},3000);
 });
+$(function() {
+	setTimeout(function(){
+		$('.finish p').fadeIn(1600);
+	},100);
+	setTimeout(function(){
+		$('.finish').fadeOut(500);
+	},1000);
+});

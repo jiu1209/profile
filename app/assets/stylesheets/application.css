@@ -98,14 +98,28 @@ section.conte {
 .start h1 {
    font-size: 4em;/*サイズ2倍*/
 }
-1 {
-  position: relative;
-  display: inline-block;
-  padding: 0 55px;
+.finish {
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9000;
+}
+.finish p {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 9999;
+  width: 280px;
+  color: green;
+}
+.finish h1 {
+   font-size: 4em;/*サイズ2倍*/
 }
 h2 {
-	text-align: center;
-}
-h4 {
 	text-align: center;
 }
