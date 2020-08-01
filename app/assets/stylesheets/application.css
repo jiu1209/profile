@@ -23,7 +23,7 @@
     font-family: serif;
 }
 a:link, a:visited, a:hover, a:active {
-  color: white;
+  color: black;
 }
 .kukan {
 	margin: 100px;
@@ -54,6 +54,10 @@ section.conte {
 .img01{
   background-image: url(IMG_8063new.jpeg);
   background-color:#d68d2f;
+}
+.img02{
+  background-image: url(kiji1Img.jpeg);
+  background-color:black;
 }
 .example {/*親div*/
   position: relative;/*相対配置*/
