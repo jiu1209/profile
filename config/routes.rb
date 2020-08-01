@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root :to => "homes#top"
   get "homes/top" => "homes#top"
   get "homes/about" => "homes#about"
+  get "homes/info" => "homes#info"
 end
